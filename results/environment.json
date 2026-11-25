@@ -1,6 +1,6 @@
 {
   "python": "3.12.16",
-  "platform": "Windows-11-10.0.26200-SP0",
+  "platform": "Windows-11-10.0.26300-SP0",
   "packages": {
     "numpy": "2.5.5",
     "pandas": "3.1.1",
@@ -10,16 +10,21 @@
     "matplotlib": "3.11.2",
     "ucimlrepo": "0.0.7"
   },
+  "repetition_seeds": [
+    11,
+    22,
+    33
+  ],
   "source_sha256": {
-    "main.py": "2da7b73e0d3bc50a22b9a50f3af61389b9a12721afd6717993e0ce25fd73514c",
-    "src\\__init__.py": "dc9787b89efd2f890e8405f1034cafa7ed9535bb2be5bf44b291b3953a77f48c",
-    "src\\config.py": "13d07cc88e518072218d21d754edc2eee81c6a89e270bc4bd13991f5a982deb6",
-    "src\\datasets.py": "973caf793b307f39605658bc04db3864633936c3bc6559a472a95f541bfacf38",
-    "src\\evaluation.py": "41d1ab7fdc1f4ccdb4535407e6c4a96571d2c1ae268bda01704ad5e97d6fc56c",
-    "src\\hybrid.py": "ae37c1597b729339b93ca05596e5350d51cf988ba4e0876c7035aa463522f9f5",
-    "src\\models.py": "f2b47412742110b17350b0eec8f32839e2591e7fca748c07985364f958ed9ab2",
-    "src\\preprocessing.py": "36a090a94dde817ef0247341f3a25539d481e81eff41ae06f75ca8be1492b373",
-    "src\\presentation.py": "9ac5aefad85a82e20340c1d87ddc27782ef3cad4c6290d2ad3aa342cdb2ea226",
-    "src\\statistical_tests.py": "03ab9d63ea21528680754e7db11efc7feec1af1b472969e3ee9ba42fc0f4f7e4"
+    "main.py": "c5957334071ad029d864c8b284813fb25106057bb37e19d8a569c3f80179a2af",
+    "src/__init__.py": "dc9787b89efd2f890e8405f1034cafa7ed9535bb2be5bf44b291b3953a77f48c",
+    "src/config.py": "d977366180df53e0f7fc349d219bfd8bf090efaa147ecbceae6484be6e5f8c9f",
+    "src/datasets.py": "973caf793b307f39605658bc04db3864633936c3bc6559a472a95f541bfacf38",
+    "src/evaluation.py": "fce4597dc0d73afe5b407b093755a4b70818b4108aabc3071d9b79dfd9fbced9",
+    "src/hybrid.py": "a66e8db373db631bb13c76a60c86246d4ddf5521302a439aaab0115e1ca997ec",
+    "src/models.py": "86ed876a24fd902dd5d9df9785e3a9af6ebdbaffff063400b5eeb3fb5d3ff055",
+    "src/preprocessing.py": "21bc90acbe1c7d8067aa3198c3e3d3bb7ad27065a81fabfc9fe8045c4884880d",
+    "src/presentation.py": "dc83534acfc56531106dcd4ef8b01418aa29e21cb3aa16c4ede92c0d20ca4ecf",
+    "src/statistical_tests.py": "732a1ed6afb6337316b47ba1852fb59affc7b21ebae437103521dfe1a23b5621"
   }
 }

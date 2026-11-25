@@ -1,19 +1,22 @@
 {
   "status": "passed",
   "datasets": 10,
-  "external_folds": 50,
-  "recomputed_metric_records": 350,
+  "repetitions": 3,
+  "external_folds": 150,
+  "recomputed_metric_records": 1500,
   "checks": [
-    "outer group separation",
-    "inner group separation",
-    "external and internal coverage",
+    "outer and inner group separation",
+    "external coverage per repetition",
     "label and group identity",
     "probability sums",
-    "competence and weights",
-    "global and local fusion",
+    "M6/M7 competence, weights and fusion",
+    "cross-fitted calibration",
+    "M8/M9/M10 weights and fusion",
+    "K=1 equivalence of M9 and M8",
     "all test metrics",
-    "70 means and standard deviations",
+    "means and standard deviations",
     "Friedman and ranks",
-    "independent Nemenyi convention and critical difference"
+    "independent Nemenyi convention and critical difference",
+    "paired tests"
   ]
 }

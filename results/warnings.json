@@ -1,1302 +1,7 @@
 [
   {
-    "dataset": "banknote",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "banknote",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "blood",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "climate",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "ionosphere",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
     "dataset": "qsar",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 1,
     "stage": "inner_1",
     "model": "M3",
@@ -1305,22 +10,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 1,
     "stage": "inner_2",
     "model": "M3",
@@ -1329,22 +19,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 1,
     "stage": "inner_3",
     "model": "M3",
@@ -1353,22 +28,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 1,
     "stage": "outer",
     "model": "M3",
@@ -1377,22 +37,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 2,
     "stage": "inner_1",
     "model": "M3",
@@ -1401,22 +46,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 2,
     "stage": "inner_2",
     "model": "M3",
@@ -1425,22 +55,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 2,
     "stage": "inner_3",
     "model": "M3",
@@ -1449,22 +64,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 2,
     "stage": "outer",
     "model": "M3",
@@ -1473,22 +73,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 3,
     "stage": "inner_1",
     "model": "M3",
@@ -1497,22 +82,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 3,
     "stage": "inner_2",
     "model": "M3",
@@ -1521,22 +91,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 3,
     "stage": "inner_3",
     "model": "M3",
@@ -1545,22 +100,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 3,
     "stage": "outer",
     "model": "M3",
@@ -1569,22 +109,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 4,
     "stage": "inner_1",
     "model": "M3",
@@ -1593,22 +118,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 4,
     "stage": "inner_2",
     "model": "M3",
@@ -1617,22 +127,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 4,
     "stage": "inner_3",
     "model": "M3",
@@ -1641,22 +136,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 4,
     "stage": "outer",
     "model": "M3",
@@ -1665,22 +145,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 5,
     "stage": "inner_1",
     "model": "M3",
@@ -1689,22 +154,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 5,
     "stage": "inner_2",
     "model": "M3",
@@ -1713,22 +163,7 @@
   },
   {
     "dataset": "qsar",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "qsar",
+    "repetition": 1,
     "fold": 5,
     "stage": "inner_3",
     "model": "M3",
@@ -1737,22 +172,187 @@
   },
   {
     "dataset": "qsar",
+    "repetition": 1,
     "fold": 5,
     "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
     "dataset": "qsar",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "repetition": 2,
+    "fold": 1,
+    "stage": "inner_1",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
     "dataset": "qsar",
+    "repetition": 2,
+    "fold": 1,
+    "stage": "inner_2",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 1,
+    "stage": "inner_3",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 1,
+    "stage": "outer",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 2,
+    "stage": "inner_1",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 2,
+    "stage": "inner_2",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 2,
+    "stage": "inner_3",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 2,
+    "stage": "outer",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 3,
+    "stage": "inner_1",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 3,
+    "stage": "inner_2",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 3,
+    "stage": "inner_3",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 3,
+    "stage": "outer",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 4,
+    "stage": "inner_1",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 4,
+    "stage": "inner_2",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 4,
+    "stage": "inner_3",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 4,
+    "stage": "outer",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 5,
+    "stage": "inner_1",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 5,
+    "stage": "inner_2",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
+    "fold": 5,
+    "stage": "inner_3",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "qsar",
+    "repetition": 2,
     "fold": 5,
     "stage": "outer",
     "model": "M3",
@@ -1760,391 +360,188 @@
     "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 1,
     "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 1,
     "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 1,
     "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 1,
     "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 2,
     "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 2,
     "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 2,
     "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 2,
     "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 3,
     "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 3,
     "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 3,
     "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 3,
     "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 4,
     "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 4,
     "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 4,
     "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 4,
     "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 5,
     "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 5,
     "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 5,
     "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "raisin",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
+    "dataset": "qsar",
+    "repetition": 3,
     "fold": 5,
     "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "raisin",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
     "dataset": "retinopathy",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
+    "repetition": 1,
     "fold": 1,
     "stage": "outer",
     "model": "M3",
@@ -2153,214 +550,7 @@
   },
   {
     "dataset": "retinopathy",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M3",
-    "category": "ConvergenceWarning",
-    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M3",
-    "category": "ConvergenceWarning",
-    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
+    "repetition": 1,
     "fold": 4,
     "stage": "outer",
     "model": "M3",
@@ -2369,70 +559,7 @@
   },
   {
     "dataset": "retinopathy",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "retinopathy",
+    "repetition": 1,
     "fold": 5,
     "stage": "outer",
     "model": "M3",
@@ -2440,963 +567,93 @@
     "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "rice",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
+    "dataset": "retinopathy",
+    "repetition": 2,
     "fold": 1,
     "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "rice",
+    "dataset": "retinopathy",
+    "repetition": 2,
+    "fold": 2,
+    "stage": "outer",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "retinopathy",
+    "repetition": 2,
+    "fold": 3,
+    "stage": "outer",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "retinopathy",
+    "repetition": 2,
+    "fold": 4,
+    "stage": "outer",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "retinopathy",
+    "repetition": 2,
+    "fold": 5,
+    "stage": "outer",
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "dataset": "retinopathy",
+    "repetition": 3,
     "fold": 1,
     "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "rice",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
+    "dataset": "retinopathy",
+    "repetition": 3,
     "fold": 2,
     "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "rice",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
+    "dataset": "retinopathy",
+    "repetition": 3,
     "fold": 3,
     "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "rice",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
+    "dataset": "retinopathy",
+    "repetition": 3,
     "fold": 4,
     "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   },
   {
-    "dataset": "rice",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
+    "dataset": "retinopathy",
+    "repetition": 3,
     "fold": 5,
     "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "rice",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "sonar",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 1,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 1,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 1,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 1,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 2,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 2,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 2,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 2,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 3,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 3,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 3,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 3,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 4,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 4,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 4,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 4,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 5,
-    "stage": "inner_1",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 5,
-    "stage": "inner_2",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 5,
-    "stage": "inner_3",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M1",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
-  },
-  {
-    "dataset": "spambase",
-    "fold": 5,
-    "stage": "outer",
-    "model": "M2",
-    "category": "FutureWarning",
-    "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    "model": "M3",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet."
   }
 ]
