@@ -1,9 +1,35 @@
-SEED = 42
+"""Experimental parameters, fixed before the confirmatory run (docs/PLANO.md)."""
+
+# Each repetition reshuffles the outer and inner partitions and reseeds the stochastic models.
+REPETITION_SEEDS = (11, 22, 33)
 OUTER_FOLDS = 5
 INNER_FOLDS = 3
+KMEANS_INIT = 20
+ALPHA = 0.05
+
+# Original local hybrid (M7): fixed number of regions on standardized attributes.
 N_CLUSTERS = 3
-MODEL_IDS = [f"M{i}" for i in range(1, 8)]
-METRICS = ["accuracy", "precision", "sensitivity", "specificity", "roc_auc", "tn", "fp", "fn", "tp"]
+# Revised local hybrids (M9, M10): candidates chosen by cross-fitting on the inner folds.
+CLUSTER_CANDIDATES = (1, 2, 3, 4, 5, 6)
+NEIGHBOR_CANDIDATES = (7, 15, 31)
+SHRINKAGE_CANDIDATES = (0, 10, 30)
+
+BASE_MODELS = ["M1", "M2", "M3", "M4", "M5"]
+HYBRID_MODELS = ["M6", "M7", "M8", "M9", "M10"]
+MODEL_IDS = BASE_MODELS + HYBRID_MODELS
+MODEL_NAMES = {
+    "M1": "SVM linear", "M2": "SVM-RBF", "M3": "MLP", "M4": "GaussianNB", "M5": "KNN",
+    "M6": "Global (aula)", "M7": "Local K-Means (original)",
+    "M8": "Global v2", "M9": "Local K-Means v2", "M10": "Local k-NN v2",
+}
+# Main Friedman-Nemenyi comparison: individual models and revised hybrids.
+PRIMARY_MODELS = BASE_MODELS + ["M8", "M9", "M10"]
+CONTROL_MODEL = "M9"
+# (proposed, reference): effect of each change, tested apart from the main comparison.
+ABLATION_PAIRS = [("M8", "M6"), ("M9", "M7"), ("M10", "M8")]
+
+METRICS = ["accuracy", "balanced_accuracy", "precision", "sensitivity", "specificity", "roc_auc",
+           "tn", "fp", "fn", "tp"]
 # Raw labels are explicit; numerical labels are converted to strings on loading.
 DATASETS = {
     "sonar": (151, 208, 60, {"R": 0, "M": 1}),
