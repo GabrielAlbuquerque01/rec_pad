@@ -1,97 +1,129 @@
 # Classificação híbrida por competência local
 
-## 1. Pergunta e desenho
+> Versão em texto do roteiro. A apresentação editável, no template do PPGEC e com o diagrama da arquitetura desenhado em formas nativas, é gerada em `slides/exports/apresentacao.pptx` (ver [slides/README.md](../slides/README.md)).
 
-A contribuição dos modelos muda entre regiões dos atributos? Comparar cinco classificadores individuais, a combinação global M6 e a combinação local M7 em dez bases UCI. Hipótese investigada, sem assumir superioridade do híbrido.
+## 1. Pergunta
 
-Um experimento: cinco folds externos e três internos, semente 42. Mesmas divisões para todos os modelos; duplicatas agrupadas. A ROC-AUC foi definida previamente como métrica principal. Acurácia, precisão, sensibilidade, especificidade e matrizes de confusão complementam a interpretação.
-
----
-
-## 2. Arquitetura
-
-```mermaid
-flowchart LR
-    subgraph E1[1. Dados]
-        D[UCI e auditoria] --> S[Divisão externa e interna]
-    end
-    subgraph E2[2. Aprendizagem]
-        P[Imputação, constantes e escala no treino] --> M[SVM linear, SVM-RBF, MLP, NB, KNN]
-    end
-    subgraph E3[3. Competência]
-        K[K-Means no treino externo] --> C[Acurácias locais e globais de validação]
-    end
-    subgraph E4[4. Avaliação]
-        W[Fusão autoral de probabilidades] --> T[Teste externo]
-        T --> F[Friedman e Nemenyi entre bases]
-    end
-    S --> P
-    S --> K
-    M --> C
-    M --> W
-    C --> W
-    style E1 stroke-dasharray: 5 5
-    style E2 stroke-dasharray: 5 5
-    style E3 stroke-dasharray: 5 5
-    style E4 stroke-dasharray: 5 5
-```
-
-Diagrama detalhado de treinamento e inferência: [METODO.md](METODO.md).
+- **Ponderar os classificadores pela competência em cada região do espaço de atributos supera a
+  ponderação global?**
+- 10 bases UCI binárias, 5 classificadores individuais e 5 híbridos (2 na formulação da aula, 3 propostos).
+- A hipótese é testada, não presumida.
 
 ---
 
-## 3. Mecanismo autoral
+## 2. Bases e protocolo
 
-Os três folds internos produzem uma previsão por exemplo, sempre por um modelo que não treinou nele. A acurácia dessas previsões estima competência global ou por cluster. O K-Means define três regiões no espaço padronizado, sem usar classes.
+| Base | n × p | % classe minoritária |
+|---|---|---|
+| Sonar | 208 × 60 | 47 |
+| Ionosphere | 351 × 34 | 36 |
+| Banknote | 1372 × 4 | 44 |
+| Blood | 748 × 4 | 24 |
+| Climate | 540 × 18 | 9 |
+| QSAR | 1055 × 41 | 34 |
+| Raisin | 900 × 7 | 50 |
+| Rice | 3810 × 7 | 43 |
+| Spambase | 4601 × 57 | 39 |
+| Retinopathy | 1151 × 19 | 47 |
 
-Peso = competência / soma das competências. Score de classe = soma dos produtos entre pesos e probabilidades. A classe final é argmax, com empate em 0. M6 e M7 usam exatamente as mesmas probabilidades; apenas os pesos mudam. Região sem competência válida usa pesos globais; soma global zero usa 1/5.
-
-Sem combinadores prontos, suavização ou busca de hiperparâmetros. O teste externo não participa do ajuste das transformações, centroides, modelos ou pesos.
-
----
-
-## 4. Comparação experimental
-
-![ROC-AUC média](../results/figures/roc_auc.png)
-
-[Tabela completa de médias e desvios-padrão](../results/summary.csv) e [métricas por fold](../results/metrics_by_fold.csv). M1: SVM linear; M2: SVM-RBF; M3: MLP; M4: GaussianNB; M5: KNN; M6: global; M7: local.
-
-![Sensibilidade](../results/figures/sensitivity.png)
-
-![Especificidade](../results/figures/specificity.png)
-
-Em Climate, classe 1 significa sucesso; a especificidade avalia a identificação de falhas. Em Blood, classe 1 significa doação, e em Retinopathy, presença de sinais. Comparar as duas classes evita esconder erros na classe minoritária.
+- Validação cruzada aninhada: 3 repetições × 5 folds externos × 3 internos, com duplicatas na mesma partição.
+- Tudo é ajustado só no treino: pré-processamento, competências, regiões e calibração.
+- Métrica principal: ROC-AUC. Também se reportam acurácia balanceada, sensibilidade e especificidade.
+- Testes com as bases como blocos: Friedman + Nemenyi; Wilcoxon com correção de Holm e teste do sinal.
 
 ---
 
-## 5. Inferência estatística
+## 3. Arquitetura
 
-![Ranking médio](../results/figures/rankings.png)
+![Arquitetura do sistema híbrido](diagramas/arquitetura_v2.png)
 
-Friedman recebe dez bases como blocos, sete algoritmos e médias externas de ROC-AUC. Nemenyi só é aplicado após rejeição a 5%. Os folds não aumentam artificialmente o número de blocos.
+A figura vem do Lucidchart (guia em [DIAGRAMA_ARQUITETURA.md](DIAGRAMA_ARQUITETURA.md)). Etapas:
 
-Os valores observados, comparações de M7 com cada alternativa e análise de agrupamentos estão em [ANALISE.md](../results/ANALISE.md). P-valores completos, quando aplicável: [nemenyi_pvalues.csv](../results/nemenyi_pvalues.csv).
-
-**Resultado observado:** Friedman χ²=25,7622, p=0,0002465. M6 e M7 empataram no ranking médio, 2,35. Nemenyi M7×M6: p=1; M7 superou M6 em quatro bases, ficou abaixo em quatro e empatou em duas. Portanto, estes dados não sustentam vantagem da ponderação local sobre a global; isso também não demonstra equivalência.
-
-M7 apresentou ranking melhor que GaussianNB (p=0,02666) e KNN (p=0,00200). As comparações com SVM linear (p=0,5402), SVM-RBF (p=0,6107) e MLP (p=0,8035) não foram significativas. A diferença crítica foi 2,8483. A conclusão é específica às dez bases e ao protocolo fixado.
-
-O melhor modelo individual depende da base: SVM-RBF obteve ROC-AUC 0,9363 em Sonar, acima de M7 (0,9151); MLP alcançou 0,7560 em Blood, acima de M7 (0,7269); SVM linear obteve 0,8118 em Retinopathy, acima de M7 (0,7944). A combinação não domina todos os problemas. As diferenças entre fronteiras lineares, relações não lineares, independência condicional de NB e vizinhança de KNN ajudam a interpretar a diversidade, mas estes resultados não isolam causalmente o efeito de cada hipótese ou regularizador. Não foi realizada decomposição de viés e variância.
-
-Há assimetrias que a acurácia sozinha esconderia: M7 em Blood teve acurácia 0,7714, sensibilidade 0,1410 e especificidade 0,9684. Em Climate, acurácia 0,9519 e sensibilidade ao sucesso 0,9960 coexistiram com especificidade para falhas de apenas 0,4756. Não se conclui bom desempenho nas duas classes a partir da acurácia alta.
-
-Os clusters foram bastante desiguais: o menor grupo teve sete exemplos em Blood, nove em Retinopathy e 12 em QSAR. Isso limita a precisão das competências locais estimadas. Climate teve grupos mais equilibrados (121–177 exemplos), mas between médio 602,71 frente a within 7173,29; o agrupamento não isolou toda a variação dos parâmetros. Em Rice, between 12217,57 superou within 9117,46, mas M7 ainda ficou abaixo da SVM linear em ROC-AUC. A estrutura geométrica não implica vantagem de classificação. Essas somas não devem ser comparadas diretamente entre bases com diferentes tamanhos e dimensões.
+1. Pré-processamento.
+2. Cinco classificadores base, com vieses indutivos diferentes: margem, kernel, rede neural, MAP, instâncias.
+3. Calibração das probabilidades.
+4. Região de competência, sem rótulos.
+5. Pesos por competência.
+6. Fusão ponderada e argmax.
 
 ---
 
-## 6. Limitações e rastreabilidade
+## 4. Ponto de partida: a fórmula da aula colapsa
 
-Dez bases e uma semente não estabelecem superioridade universal. Pesos estimados por acurácia podem favorecer a classe majoritária; clusters pequenos têm competência mais variável. Clusters não são classes, e PCA é somente uma projeção. Ausência de significância não demonstra equivalência.
+- Ponderação de performance (aula 09): `w_m = α_m / Σ α_r`, com `α` = acurácia fora da amostra.
+- As acurácias ficam entre 0,6 e 1,0, então os pesos variam apenas 0,003–0,05 em torno de 0,20. **O híbrido
+  global (M6) vira, na prática, a média simples.**
+- A mesma fórmula por cluster do K-Means, com K = 3 (M7), muda a decisão de M6 em no máximo 0,4% das
+  instâncias.
+- Um modelo no nível da classe majoritária ainda recebe ~20% do peso. O Naive Bayes, com probabilidades
+  extremas, chegou a decidir sozinho contra os outros quatro em 9% das instâncias de Retinopathy (execução
+  exploratória).
+- É o cenário do exemplo da aula 09: com competências parecidas, a fusão perde a especialização por região.
 
-Dados públicos podem conter dependências latentes sem identificadores. A auditoria agrupa duplicatas observáveis e registra essa limitação. Probabilidades não são assumidas perfeitamente calibradas. Os avisos de treinamento são preservados sem alterar parâmetros em resposta aos resultados.
+---
 
-[Fontes e tratamentos](BASES.md), [pesos](../results/weights.csv), [clusters](../results/clusters.csv), [ambiente](../results/environment.json) e [validação dos artefatos](../results/validation.json) permitem conferir o experimento.
+## 5. Mecanismo autoral
 
-Na execução, houve 25 avisos de convergência da MLP: 20 em QSAR e cinco em Retinopathy. Os outros 400 avisos são de depreciação de `SVC(probability=True)`. A precisão ficou indefinida para M1 em Blood nos folds 1, 2 e 4 porque não houve predições positivas; ela foi mantida como NaN, com média/desvio calculados sobre dois folds válidos, explicitados na coluna de contagem. As demais métricas desses folds foram preservadas.
+1. **Calibração** de cada modelo (Platt), ajustada nas predições fora da amostra.
+2. **Competência acima da classe majoritária** da região (critério da aula 03), suavizada para regiões
+   pequenas:
 
-Os nove testes passaram. A validação posterior recalculou os 350 registros, os 70 agregados e verificou grupos, cobertura, competências, fusões e estatística. Foram produzidas 50 figuras PCA e cinco gráficos comparativos. Os hashes dos módulos executados conferem com os registrados em `environment.json`.
+   `â = (acertos + λ·a_global) / (n_R + λ)`, `base_R = taxa da classe majoritária na região`,
+   `w_m ∝ max(â_m − base_R, 0)`
+
+   Quem não supera a classe majoritária na região recebe peso zero.
+3. **Região:**
+   - M8: global;
+   - M9: cluster do K-Means;
+   - M10: k vizinhos da instância.
+
+   K, k e λ são escolhidos por ROC-AUC nas dobras internas. **K = 1 equivale ao global**, então o
+   local só atua quando os dados de treino mostram sinal.
+
+Sem combinadores prontos (`VotingClassifier`/`StackingClassifier`): agrupamento, calibração, pesos e fusão
+são código próprio.
+
+---
+
+## 6. Comparação entre bases
+
+![Diagrama de diferença crítica](../results/figures/critical_difference.png)
+
+- **Friedman:** χ² = 37,46, p = 3,8·10⁻⁶. Ranking médio: M8 2,55; M9 2,75; M10 2,75; MLP 4,40; SVM-RBF 4,75;
+  SVM linear 4,90; NB 6,80; KNN 7,10.
+- **Nemenyi (CD = 3,32):** os três híbridos superam NB e KNN, mas não se distinguem das SVMs nem da MLP.
+- **Wilcoxon:** M9 vence as SVMs e a MLP em 8 de 10 bases (p bruto entre 0,02 e 0,04), mas nenhuma diferença
+  se mantém após a correção de Holm.
+
+---
+
+## 7. O que cada mudança fez
+
+| Comparação | Δ ROC-AUC | Vitórias / derrotas / empates | p (Holm) |
+|---|---|---|---|
+| M8 × M6: competência corrigida × fórmula da aula | +0,0058 | 9 / 0 / 1 | **0,012** |
+| M9 × M7: local v2 × local original | +0,0056 | 6 / 3 / 1 | 0,29 |
+| M9 × M8: local (K-Means) × global | +0,0001 | 4 / 5 / 1 | 1,00 |
+| M10 × M8: local (vizinhança) × global | −0,0003 | 3 / 6 / 1 | 0,35 |
+
+- **Onde o híbrido ganhou:** Retinopathy (de 0,798 para 0,822; melhor individual: 0,815) e Blood (de 0,729
+  para 0,750, empatado com a MLP).
+- **O local atua, mas não ajuda:** os pesos se deslocam até 28% e a decisão muda em até 4% das instâncias,
+  sem ganho. A validação interna volta a K = 1 em Banknote e Spambase.
+
+---
+
+## 8. Conclusões e limitações
+
+- A competência corrigida supera a fórmula da aula com significância estatística.
+- Os híbridos lideram o ranking e superam NB e KNN. Com 10 bases, não há ganho significativo sobre SVMs e MLP.
+- **Não há evidência de que a ponderação local supere a global nestas bases.** Isso não demonstra
+  equivalência. Desta vez, porém, é um resultado do experimento, e não um efeito do desenho do modelo.
+- **Limitações:**
+  - limiar de decisão de 0,5 na classe minoritária (sensibilidade de 0,12 em Blood, especificidade de 0,55 em
+    Climate);
+  - poder estatístico limitado com 10 bases;
+  - hiperparâmetros dos modelos base fixos;
+  - a MLP não converge em QSAR.
+- **Reprodutibilidade:** decisões fixadas antes da execução, desvio registrado e validação independente dos
+  artefatos ([PLANO.md](PLANO.md)).
