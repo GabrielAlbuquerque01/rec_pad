@@ -1,0 +1,12 @@
+{
+  "statistic": 25.76216216216215,
+  "pvalue": 0.00024653707514264234,
+  "alpha": 0.05,
+  "blocks": 10,
+  "algorithms": 7,
+  "metric": "roc_auc",
+  "reject_null": true,
+  "nemenyi_executed": true,
+  "q_alpha": 2.9483200175296744,
+  "critical_difference": 2.848347742823624
+}

@@ -1,0 +1,11 @@
+dataset,uci_id,source,samples,attributes,original_columns,removed_identifiers,missing_cells,constant_columns,duplicate_feature_rows,conflicting_groups,class_0,class_1,label_mapping,splitter,sha256
+sonar,151,https://archive.ics.uci.edu/dataset/151,208,60,61,[],0,[],0,0,97,111,"{""R"": 0, ""M"": 1}",StratifiedKFold,a13cabc89ad5190fa7791f086fa15816b1edacdddcdd3df3dcc356fca56ca906
+ionosphere,52,https://archive.ics.uci.edu/dataset/52,351,34,35,[],0,"[""Attribute2""]",1,0,126,225,"{""b"": 0, ""g"": 1}",StratifiedGroupKFold,43f950fb4f817abfad1a1daaa1e1e4eb08d6662139fa0aea0208faca9ab7c3f5
+banknote,267,https://archive.ics.uci.edu/dataset/267,1372,4,5,[],0,[],24,0,762,610,"{""0"": 0, ""1"": 1}",StratifiedGroupKFold,1c60dd2a6f961ec0827f4dfca119e505c8c3d3213128ca25ed78bc9c683f05b1
+blood,176,https://archive.ics.uci.edu/dataset/176,748,4,5,[],0,[],246,31,570,178,"{""0"": 0, ""1"": 1}",StratifiedGroupKFold,abb65a74fc0ba445a45d5c196e41729954859d997c19b4e72a52c28d268c01e5
+climate,252,https://archive.ics.uci.edu/dataset/252,540,18,21,"[""Run"", ""Study""]",0,[],0,0,46,494,"{""0"": 0, ""1"": 1}",StratifiedKFold,2db481b855bf499ae894364677b72cc4b0de5a2ba3251445dcd547957f5f6f6d
+qsar,254,https://archive.ics.uci.edu/dataset/254,1055,41,42,[],0,[],3,0,699,356,"{""NRB"": 0, ""RB"": 1}",StratifiedGroupKFold,305a50931289999ae87cda05bc1622a9ae3aae184ad042381d73d425f9f3fbf3
+raisin,850,https://archive.ics.uci.edu/dataset/850,900,7,8,[],0,[],0,0,450,450,"{""Kecimen"": 0, ""Besni"": 1}",StratifiedKFold,175ecbc52d351e0e0d9aa00605de09425b3a4826c5db294fabcbc24bcba955ab
+rice,545,https://archive.ics.uci.edu/dataset/545,3810,7,8,[],0,[],0,0,1630,2180,"{""Cammeo"": 0, ""Osmancik"": 1}",StratifiedKFold,a249b73ce3f4c4185a379866bae69bb9cab28758215b63ddc549cf9e9cb4a8c4
+spambase,94,https://archive.ics.uci.edu/dataset/94,4601,57,58,[],0,[],394,3,2788,1813,"{""0"": 0, ""1"": 1}",StratifiedGroupKFold,80c9655a41d695683809b68e48bb0c1d9b151d8c1613abc78acad4745b620cd1
+retinopathy,329,https://archive.ics.uci.edu/dataset/329,1151,19,20,[],0,[],5,0,540,611,"{""0"": 0, ""1"": 1}",StratifiedGroupKFold,a9900733f5ef1d7d743bcc04cf044be88fc707c915e6c9ff3b9809bfa3032969
