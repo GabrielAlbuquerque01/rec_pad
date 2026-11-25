@@ -1,0 +1,16 @@
+{
+  "nome": "Classificação híbrida por competência local",
+  "template": "template/Template_PPGEC_2026_1.pptx",
+  "slides": [
+    "s00_capa",
+    "s01_pergunta",
+    "s02_bases_protocolo",
+    "s03_arquitetura",
+    "s04_ponto_de_partida",
+    "s05_mecanismo",
+    "s06_comparacao",
+    "s07_auc_por_base",
+    "s08_ablacao",
+    "s09_conclusoes"
+  ]
+}
