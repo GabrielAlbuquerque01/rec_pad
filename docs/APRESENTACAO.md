@@ -68,10 +68,12 @@ A figura vem do Lucidchart (guia em [DIAGRAMA_ARQUITETURA.md](DIAGRAMA_ARQUITETU
 2. **Competência acima da classe majoritária** da região (critério da aula 03), suavizada para regiões
    pequenas:
 
-   `â = (acertos + λ·a_global) / (n_R + λ)`, `base_R = taxa da classe majoritária na região`,
+   `â = (acertos + λ·a_global) / (n_R + λ)`,
+   `π̂_R = (positivos + λ·π_global) / (n_R + λ)`, `base_R = max(π̂_R, 1 − π̂_R)`,
    `w_m ∝ max(â_m − base_R, 0)`
 
-   Quem não supera a classe majoritária na região recebe peso zero.
+   Quem não supera a classe majoritária suavizada recebe peso zero. Se nenhum modelo supera,
+   usam-se os pesos globais de M8; se nenhum supera globalmente, pesos iguais.
 3. **Região:**
    - M8: global;
    - M9: cluster do K-Means;
@@ -101,10 +103,14 @@ são código próprio.
 
 | Comparação | Δ ROC-AUC | Vitórias / derrotas / empates | p (Holm) |
 |---|---|---|---|
-| M8 × M6: competência corrigida × fórmula da aula | +0,0058 | 9 / 0 / 1 | **0,012** |
+| M8 × M6: calibração + competência corrigida × fórmula da aula | +0,0058 | 9 / 0 / 1 | **0,012** |
 | M9 × M7: local v2 × local original | +0,0056 | 6 / 3 / 1 | 0,29 |
 | M9 × M8: local (K-Means) × global | +0,0001 | 4 / 5 / 1 | 1,00 |
 | M10 × M8: local (vizinhança) × global | −0,0003 | 3 / 6 / 1 | 0,35 |
+
+M8 × M6 muda simultaneamente a calibração e a definição de competência; não permite atribuir o ganho
+isoladamente a uma delas. Os p-valores de Holm pertencem a famílias distintas: M9 × M8 está na família
+de controle; as outras três linhas, na família de ablação.
 
 - **Onde o híbrido ganhou:** Retinopathy (de 0,798 para 0,822; melhor individual: 0,815) e Blood (de 0,729
   para 0,750, empatado com a MLP).
@@ -115,7 +121,7 @@ são código próprio.
 
 ## 8. Conclusões e limitações
 
-- A competência corrigida supera a fórmula da aula com significância estatística.
+- Calibração e competência corrigida, em conjunto, superam a fórmula da aula com significância estatística.
 - Os híbridos lideram o ranking e superam NB e KNN. Com 10 bases, não há ganho significativo sobre SVMs e MLP.
 - **Não há evidência de que a ponderação local supere a global nestas bases.** Isso não demonstra
   equivalência. Desta vez, porém, é um resultado do experimento, e não um efeito do desenho do modelo.
@@ -124,6 +130,6 @@ são código próprio.
     Climate);
   - poder estatístico limitado com 10 bases;
   - hiperparâmetros dos modelos base fixos;
-  - a MLP não converge em QSAR.
+  - há avisos de convergência da MLP em QSAR e Retinopathy.
 - **Reprodutibilidade:** decisões fixadas antes da execução, desvio registrado e validação independente dos
   artefatos ([PLANO.md](PLANO.md)).

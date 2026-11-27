@@ -10,12 +10,14 @@ NOTAS = [
     "O mecanismo autoral muda três coisas na fórmula da aula, e todas são estimadas só com as "
     "dobras internas.",
     "Primeiro, a calibração. Cada modelo passa por uma regressão logística sobre o logit da sua "
-    "probabilidade. Isso impede que um modelo superconfiante domine a soma. A própria aula diz "
+    "probabilidade. Isso busca reduzir a influência de probabilidades superconfiantes, sem garantir "
+    "calibração perfeita. A própria aula diz "
     "que a confiança só vale se as saídas forem calibradas.",
     "Segundo, e é o centro do trabalho: a competência passa a ser a acurácia acima da classe "
     "majoritária da região. É o critério da aula de pré-processamento: em dados desbalanceados, "
     "uma acurácia só é aceitável se superar a da classe majoritária. Quem não supera recebe peso "
-    "zero. Para regiões pequenas, λ pseudo-observações puxam a estimativa para o valor global.",
+    "zero, salvo o fallback: se nenhum supera, usam-se os pesos globais; se nenhum supera "
+    "globalmente, pesos iguais. Para regiões pequenas, λ suaviza tanto a acurácia quanto a taxa positiva.",
     "Terceiro, a região não é mais fixa. O M9 testa K de 1 a 6 no K-Means, o M10 testa "
     "vizinhanças de 7, 15 ou 31 exemplos, e λ entre 0, 10 e 30. Vence a configuração com maior "
     "ROC-AUC fora da amostra. Como K = 1 é o global, o local só atua quando há sinal.",
@@ -26,14 +28,14 @@ CARDS = [
         ("Platt por modelo, sobre o logit da probabilidade.", 0),
         ("p_cal = σ(α · logit p + β)", 1),
         ("α e β ajustados nas probabilidades fora da amostra, em ajuste cruzado.", 0),
-        ("Evita que um modelo superconfiante domine a soma.", 2),
+        ("Busca reduzir a influência de probabilidades superconfiantes.", 2),
     ]),
     ("02", "Competência acima da classe majoritária", RED, [
         ("â = (acertos + λ · a_global) / (n_R + λ)", 1),
-        ("base_R = taxa da classe majoritária na região", 1),
+        ("π̂_R = (positivos + λ · π_global) / (n_R + λ)", 1),
+        ("base_R = max(π̂_R, 1 − π̂_R)", 1),
         ("w_m = max(â_m − base_R, 0), normalizado", 1),
-        ("Critério da aula 03: só conta o acerto além da classe majoritária. Quem não supera "
-         "recebe peso zero.", 2),
+        ("Sem excesso positivo: pesos globais; se também não houver excesso global, pesos iguais.", 2),
     ]),
     ("03", "Região escolhida na validação interna", NAVY, [
         ("M8: treino inteiro", 0),

@@ -9,6 +9,16 @@ cd slides
 python -m build.deck decks/apresentacao.json
 ```
 
+Para revisar sem substituir a apresentação entregue, use uma saída alternativa, ainda dentro de `slides/`:
+
+```bash
+../.venv/bin/python -m build.deck decks/apresentacao.json --output ../.runtime/apresentacao-revisao.pptx
+```
+
+A exportação anterior só é substituída depois de o novo arquivo ser completamente empacotado. Os testes
+de `tests/test_slides.py` conferem os XMLs, relacionamentos, contagens, autoria e notas, inclusive para
+apresentações menores e maiores que o template. Essa verificação estrutural não substitui a revisão visual.
+
 O arquivo sai em `exports/apresentacao.pptx`, com formas editáveis no PowerPoint (inclusive o diagrama
 da arquitetura e o diagrama de diferença crítica) e notas do apresentador em cada slide.
 

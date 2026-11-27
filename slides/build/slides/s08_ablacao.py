@@ -8,13 +8,16 @@ from ..pptxkit import (ARROW, BLUETINT, DGRAY, GRAY, LGRAY, LINEG, MX, NAVY, RED
                        WHITE, chrome, num, para, rect, reset_ids, run, sld, tbox)
 
 ID = "s08_ablacao"
-TITULO = "A correção funciona; a região não acrescenta"
+TITULO = "A versão 2 melhora; sem evidência de ganho local"
 NOTAS = [
     "Aqui está o efeito de cada mudança. Cada quadrado é uma base: azul quando o primeiro modelo "
     "ganha, vermelho quando perde, cinza quando empata.",
-    "Primeira linha: a competência corrigida contra a fórmula da aula. Ganha em nove bases, empata "
+    "Primeira linha: calibração e competência corrigida juntas contra a fórmula da aula. "
+    "O desenho não isola a contribuição de cada uma. Ganha em nove bases, empata "
     "em uma e não perde nenhuma. É o único resultado significativo depois da correção de Holm.",
     "Segunda linha: o local novo contra o local original. Melhora, mas sem significância.",
+    "Holm é aplicado em duas famílias: M9 × M8 pertence à família de controle; "
+    "as outras três linhas pertencem à família de ablação. Não se trata de uma família única de quatro testes.",
     "As duas últimas linhas respondem à pergunta do projeto: o local, por cluster ou por "
     "vizinhança, contra o global corrigido. O placar fica dividido, sem vantagem para o local.",
     "E não é por falta de atuação. Os pesos locais se afastam bastante dos globais e algumas "
@@ -23,7 +26,7 @@ NOTAS = [
 ]
 
 LINHAS = [
-    ("M8", "M6", "competência corrigida × fórmula da aula"),
+    ("M8", "M6", "calibração + competência × original"),
     ("M9", "M7", "local v2 × local original"),
     ("M9", "M8", "local por cluster × global corrigido"),
     ("M10", "M8", "local por vizinhança × global corrigido"),
@@ -35,7 +38,7 @@ SIGLA = {"sonar": "SON", "ionosphere": "ION", "banknote": "BAN", "blood": "BLO",
 def build(page="08"):
     reset_ids()
     s = chrome("08 · RESULTADOS · O QUE CADA MUDANÇA FEZ", TITULO,
-               "Cada quadrado é uma base; Wilcoxon pareado entre bases, com correção de Holm",
+               "Cada quadrado é uma base; Holm por família: M9 × M8 no controle, demais na ablação",
                page, RED)
 
     LW, SQ, SG = 2350000, 220000, 45000

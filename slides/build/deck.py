@@ -19,6 +19,7 @@ import re
 import shutil
 import tempfile
 import zipfile
+from xml.etree import ElementTree as ET
 from xml.sax.saxutils import escape
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -78,11 +79,35 @@ def load_module(name):
 
 def set_title(tmp, title):
     core = tmp / "docProps" / "core.xml"
-    core.write_text(re.sub(r"<dc:title>.*?</dc:title>", f"<dc:title>{escape(title)}</dc:title>",
+    core.write_text(re.sub(r"<dc:title>.*?</dc:title>", lambda _: f"<dc:title>{escape(title)}</dc:title>",
                            core.read_text(encoding="utf-8")), encoding="utf-8")
 
 
-def build(manifest_path: pathlib.Path) -> pathlib.Path:
+def update_properties(tmp, mods):
+    """Mantém a contagem e os títulos coerentes com os slides realmente gerados."""
+    path = tmp / "docProps" / "app.xml"
+    ns = "http://schemas.openxmlformats.org/officeDocument/2006/extended-properties"
+    vt = "http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"
+    ET.register_namespace("", ns)
+    ET.register_namespace("vt", vt)
+    root = ET.fromstring(path.read_bytes())
+    for name in ("Slides", "Notes"):
+        root.find(f"{{{ns}}}{name}").text = str(len(mods))
+    headings = root.find(f"{{{ns}}}HeadingPairs/{{{vt}}}vector")
+    counts = headings.findall(f"{{{vt}}}variant/{{{vt}}}i4")
+    titles = root.find(f"{{{ns}}}TitlesOfParts/{{{vt}}}vector")
+    # O último grupo de propriedades do template contém os títulos dos slides.
+    old_count = int(counts[-1].text)
+    for child in list(titles)[len(titles) - old_count:]:
+        titles.remove(child)
+    counts[-1].text = str(len(mods))
+    for mod in mods:
+        ET.SubElement(titles, f"{{{vt}}}lpstr").text = mod.TITULO
+    titles.set("size", str(len(titles)))
+    path.write_bytes(ET.tostring(root, encoding="utf-8", xml_declaration=True))
+
+
+def build(manifest_path: pathlib.Path, output: pathlib.Path | None = None) -> pathlib.Path:
     man = json.loads(manifest_path.read_text(encoding="utf-8"))
     template = (SLIDES_DIR / man["template"]).resolve()
     mods = [load_module(n) for n in man["slides"]]
@@ -163,16 +188,21 @@ def build(manifest_path: pathlib.Path) -> pathlib.Path:
         ct.write_text(txt, encoding="utf-8")
 
         set_title(tmp, man["nome"])
+        update_properties(tmp, mods)
 
-        # 5. empacota
-        EXPORTS.mkdir(parents=True, exist_ok=True)
-        out = EXPORTS / (manifest_path.stem + ".pptx")
-        if out.exists():
-            out.unlink()
-        with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
-            for p in sorted(tmp.rglob("*")):
-                if p.is_file():
-                    z.write(p, p.relative_to(tmp).as_posix())
+        # 5. empacota antes de substituir a exportação anterior
+        out = pathlib.Path(output) if output is not None else EXPORTS / (manifest_path.stem + ".pptx")
+        out.parent.mkdir(parents=True, exist_ok=True)
+        with tempfile.NamedTemporaryFile(dir=out.parent, suffix=".pptx", delete=False) as staging:
+            staged = pathlib.Path(staging.name)
+        try:
+            with zipfile.ZipFile(staged, "w", zipfile.ZIP_DEFLATED) as z:
+                for p in sorted(tmp.rglob("*")):
+                    if p.is_file():
+                        z.write(p, p.relative_to(tmp).as_posix())
+            staged.replace(out)
+        finally:
+            staged.unlink(missing_ok=True)
         return out
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
@@ -181,8 +211,9 @@ def build(manifest_path: pathlib.Path) -> pathlib.Path:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("manifest")
+    ap.add_argument("--output", type=pathlib.Path, help="Arquivo de saída alternativo para revisão")
     args = ap.parse_args()
-    out = build(pathlib.Path(args.manifest).resolve())
+    out = build(pathlib.Path(args.manifest).resolve(), args.output)
     print(f"gerado: {out}")
 
 

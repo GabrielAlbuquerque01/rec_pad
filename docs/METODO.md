@@ -54,6 +54,25 @@ w_{mR}=\frac{\max(\hat a_{mR}-b_R,0)}{\sum_r\max(\hat a_{rR}-b_R,0)}.
 Os cinco modelos são reajustados no treino externo inteiro. Nenhum peso, calibração ou região é recalculado no
 teste.
 
+### Limites de interpretação e melhorias futuras
+
+M8 × M6 altera duas coisas ao mesmo tempo: calibração e competência. A diferença observada é do conjunto;
+não identifica a contribuição individual de cada mudança. Separá-las exigiria novos contrastes e um novo
+plano experimental, não uma alteração retrospectiva desta execução.
+
+O isolamento de duplicatas é aplicado aos folds externos e aos três folds internos de avaliação.
+Dentro de cada ajuste das SVMs, porém, `CalibratedClassifierCV(cv=5)` usa sua própria divisão estratificada,
+sem os grupos de duplicatas; o pré-processador também já foi ajustado no treino desse pipeline. Assim,
+essas cinco subdivisões de calibração não têm o mesmo isolamento dos folds de avaliação. Isso não coloca
+o teste externo no ajuste, mas é uma limitação da calibração interna. Usar grupos e pré-processamento
+por subdivisão seria uma revisão de protocolo e exigiria refazer os resultados.
+
+A escolha de K, k e λ reutiliza as OOF e a calibração cruzada do treino externo. As predições usadas para
+estimar competências em outras dobras podem ter calibradores ajustados com rótulos da dobra que está sendo
+pontuada. Portanto, a AUC interna é um critério de escolha, não uma estimativa independente de desempenho.
+A avaliação final permanece nos testes externos reservados. Um nível adicional de ajuste cruzado seria
+necessário para isolar também essa dependência interna e mudaria o protocolo atual.
+
 ```mermaid
 flowchart TD
     D[Base auditada e grupos de duplicatas] --> O

@@ -8,13 +8,13 @@ ID = "s09_conclusoes"
 TITULO = "O que o experimento responde"
 NOTAS = [
     "Três conclusões, todas restritas a estas dez bases e ao protocolo fixado antes de rodar.",
-    "Primeiro: medir a competência acima da classe majoritária, com probabilidades calibradas, "
-    "supera a fórmula da aula, com significância.",
+    "Primeiro: calibração e competência acima da classe majoritária, em conjunto, "
+    "superam a fórmula da aula, com significância. Não isolamos o efeito de cada mudança.",
     "Segundo: os híbridos ficam no topo do ranking e superam Naive Bayes e KNN, mas, com dez bases, "
     "não dá para afirmar que superam as SVMs e a MLP.",
     "Terceiro, a resposta à pergunta do projeto: não há evidência de que ponderar por região "
-    "supere a ponderação global corrigida. Isso não prova que sejam equivalentes, e desta vez o "
-    "resultado vem do experimento, não de um defeito do desenho.",
+    "supere a ponderação global corrigida. Isso não prova que sejam equivalentes, e desta vez "
+    "o mecanismo local efetivamente modifica pesos e decisões.",
     "A principal limitação é o limiar de 0,5, que deixa a classe minoritária mal atendida em Blood "
     "e Climate. O passo natural seria escolher o limiar na validação interna.",
 ]
@@ -27,7 +27,7 @@ def build(page="09"):
     correcao = dados.par("M8", "M6")
     local = [dados.par("M9", "M8"), dados.par("M10", "M8")]
     cards = [
-        ("A competência corrigida supera a fórmula da aula",
+        ("Calibração + competência superam a fórmula da aula",
          f"M8 × M6: {correcao['wins']} vitórias, {correcao['losses']} derrotas, {correcao['ties']} "
          f"empate; p de Holm = {num(correcao['wilcoxon_p_holm'], 3)}."),
         ("Os híbridos lideram o ranking",
@@ -55,7 +55,7 @@ def build(page="09"):
         f"especificidade {num(espec, 2)} em Climate).",
         "Dez bases limitam o poder dos testes entre bases.",
         "Hiperparâmetros dos modelos base fixos.",
-        "MLP sem convergência em QSAR.",
+        "MLP sem convergência em QSAR e Retinopathy.",
     ]
     LX = MX + CW + 160000
     LW = MX + 8503920 - LX

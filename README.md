@@ -30,6 +30,21 @@ python -m scripts.validate_results
 - **Ambiente:** Python 3.12.16. Se houver pacotes instalados no diretório do usuário, defina
   `PYTHONNOUSERSITE=1` para isolar o ambiente.
 
+No Linux, também é possível usar um ambiente local, sem Conda:
+
+```bash
+uv venv --python 3.12 .venv
+uv pip install --python .venv/bin/python -r requirements-lock.txt
+source .venv/bin/activate
+python main.py --acquire-only
+python -m unittest discover -s tests -v
+python -m scripts.validate_results
+```
+
+Os testes incluem o gerador de slides. Para revisar a apresentação sem sobrescrever a exportação,
+consulte [slides/README.md](slides/README.md). M8 × M6 avalia **calibração e competência corrigida em
+conjunto**; esse contraste não isola o efeito de cada uma das duas mudanças.
+
 ## Estrutura
 
 - `src/`: aquisição, pré-processamento, modelos, híbridos, avaliação, estatística e figuras. Parâmetros em
@@ -70,7 +85,7 @@ São 1500 registros e 100 agregados; os testes passaram e a validação dos arte
 - **Nemenyi (CD = 3,32):** separa os três híbridos de GaussianNB e KNN, mas não de SVM linear, SVM-RBF e MLP.
 - **M9 contra as SVMs e a MLP (Wilcoxon):** vence 8 de 10 bases contra cada uma (p bruto entre 0,02 e 0,04),
   mas nenhuma diferença sobrevive à correção de Holm.
-- **A correção da competência funciona.** M8 supera M6 (a fórmula da aula) em 9 de 10 bases, com 1 empate:
+- **Calibração e competência corrigida funcionam em conjunto.** M8 supera M6 (a fórmula da aula) em 9 de 10 bases, com 1 empate:
   +0,0058 de AUC, p de Holm = 0,012.
 - **A ponderação local não melhorou sobre a global corrigida.** M9 × M8 terminou com 4 vitórias, 5 derrotas
   e 1 empate; M10 × M8, com 3, 6 e 1. Ao contrário da versão 1, o mecanismo local agora atua: os pesos locais

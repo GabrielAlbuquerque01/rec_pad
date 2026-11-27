@@ -380,3 +380,56 @@ Resposta às duas perguntas:
 
 Na comparação principal, os três híbridos v2 ocupam os três primeiros lugares do ranking. Diferem
 significativamente de NB e KNN (Nemenyi), mas não das SVMs nem da MLP depois da correção de Holm.
+
+## 12. Revisão de manutenção e reprodução em Linux (27/11/2026)
+
+Esta revisão preserva o protocolo, os modelos, as sementes e os artefatos científicos versionados.
+Os números das seções anteriores continuam descrevendo a execução original em Windows.
+
+### Verificações realizadas
+
+- 28 testes aprovados: os 20 existentes, cinco testes do gerador de slides e três testes de auditoria
+  estatística. Os testes de slides percorrem 12 combinações de tamanho e presença de capa, de 1 a 40
+  slides, e verificam XMLs, relacionamentos, notas, metadados e preservação da exportação após falha.
+- Validação dos 150 folds externos e 1.500 registros originais: métricas, pesos, calibração, cobertura,
+  separação de grupos e inferência estatística. A auditoria também passou a verificar as contagens das
+  métricas, as famílias de testes, os p-valores de Holm e as decisões de significância.
+- Reprodução integral, em uma saída separada, das dez bases e três repetições com Python 3.12.16 e as
+  mesmas versões de pacotes. Os hashes de `main.py` e `src/*.py` coincidem com os originais.
+- Renderização dos dez slides em PDF com LibreOffice e revisão visual; inspeção da versão revisada.
+
+### Diferença de reprodutibilidade encontrada
+
+Windows e Linux produziram 67 valores de ROC-AUC diferentes acima de 10⁻¹², todos em Blood. A maior
+diferença absoluta por fold foi 0,02510 no KNN (M5). Em `r1_f1`, as partições e os grupos são idênticos,
+e todas as 39 previsões divergentes do KNN têm empate de distância entre o 5º e o 6º vizinhos. Isso é
+evidência de sensibilidade à escolha dos vizinhos em empates entre plataformas. Há também uma diferença
+pequena de ROC-AUC da MLP em `r3_f4` (0,00012), com diferença máxima de apenas 1,11 × 10⁻¹⁶ nas
+probabilidades: a ordenação de scores quase empatados é sensível a diferenças numéricas mínimas.
+
+Apesar dessas diferenças, os rankings médios dos oito modelos, Friedman/Nemenyi e todos os p-valores
+de Holm das comparações pareadas permaneceram iguais. Portanto, a reprodução sustenta as conclusões
+estatísticas originais, sem demonstrar reprodução numérica exata entre plataformas. Os resultados novos
+ficam em `.runtime/review/reproduction/`, a comparação em `.runtime/review/comparison.json` e os logs
+de testes e validação em `.runtime/review/`; esses arquivos locais não são versionados.
+
+### Melhorias aplicadas sem alterar o experimento
+
+1. A capa agora reproduz pelo código a autoria, o mês e os ajustes de posição e fonte do arquivo entregue.
+   Antes, gerar novamente a apresentação restaurava dados desatualizados e mudava o layout.
+2. O gerador atualiza as contagens e os títulos dos slides nas propriedades do PowerPoint, aceita
+   `--output` e só substitui a exportação anterior depois de concluir o empacotamento.
+3. Os slides mostram a suavização da taxa positiva e o fallback dos pesos, distinguem as famílias de
+   Holm e tratam M8 × M6 como efeito conjunto de calibração e competência. A lista de avisos da MLP
+   inclui QSAR e Retinopathy (60 e 13 avisos na execução original).
+4. A documentação inclui instalação com `.venv` no Linux e os limites da calibração interna descritos
+   em [METODO.md](METODO.md).
+
+### Melhorias para um próximo protocolo, não aplicadas retrospectivamente
+
+| Prioridade | Proposta | Por que exige uma nova execução |
+|---|---|---|
+| Alta | Calibração das SVMs com grupos e pré-processamento por subdivisão | As cinco subdivisões de `CalibratedClassifierCV` não recebem os grupos da avaliação; mudar isso altera as probabilidades |
+| Alta | Critério explícito e testado para empates dos vizinhos, com registro do ambiente numérico | A seleção de vizinhos equidistantes pode alterar previsões e pesos; mudar o desempate altera o modelo |
+| Média | Ajuste cruzado adicional na seleção do combinador | Evita reutilização indireta de rótulos pela calibração das OOF que estimam competências em outras dobras |
+| Média | Contrastes que separem calibração de competência e seleção interna do limiar de decisão | Permitem atribuir efeitos separadamente e investigar a classe minoritária, com novo plano e controle de multiplicidade |
